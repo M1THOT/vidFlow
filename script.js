@@ -3,7 +3,7 @@ const containerVideos = document.querySelector(".videos__container");
 
 async function buscarEMostrarVideos() {
   const urlVideos = import.meta.env.PROD //variavel que faz o codigo rodar dependendo do modelo (preview ou local)
-    ? "https://gist.github.com/M1THOT/bf5047e489ca5a1e72ee970cd49805a4"
+    ? "https://gist.githubusercontent.com/M1THOT/bf5047e489ca5a1e72ee970cd49805a4/raw/314a428bf32529619ff76c0e84434aacd586a7c9/gistfile1.txt"
     : "http://localhost:3000/videos";
 
   try {
